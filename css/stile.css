@@ -1,0 +1,63 @@
+body{
+
+    background-color: aquamarine;
+    background-image: url(../img/calcio.jpg);
+
+
+}
+
+#tabella1{
+
+    background-color:rgba(255, 255, 0, 0.9);
+    width: 500px;
+    border-style:solid;
+    border-width: 4px;
+    border-color: brown;
+    border-collapse: collapse;
+   
+
+}
+
+.cella{
+
+    width: 50%;
+    color: darkgreen;
+  
+    border-style: solid;
+    border-width: 1px;
+    border-color: brown;
+
+
+}
+
+#capolista{
+
+color:darkorange;
+
+padding-left: 100px;
+
+   
+}
+
+.testo{
+
+    color:violet;
+       
+    }
+
+    main{
+
+padding-top:100px;
+
+    }
+
+    #topcella{
+
+ background-image: url("../img/calcio.jpg");
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration:underline;
+        font-weight:bold;
+        font-style: italic;
+    
+    }
