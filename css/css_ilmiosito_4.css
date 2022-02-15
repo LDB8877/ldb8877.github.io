@@ -1,6 +1,6 @@
 body{
-    background-image: url(../sfondo_contattami.jpg);
-    background-size: cover;    
+    background-image: url(../sfondo_contattami_book.jpg) ;
+    background-size: cover;
 }
 #tab{
     padding-top: 50%;
@@ -20,13 +20,13 @@ body{
 .td_text{
     font-weight: bold;
     text-align: center;
-    padding-left: 50%;
 }
 #text_insta{
     padding-left: 40%;
 }
 #td_telefono{
     padding-left: 50%;
+    font-weight: bold;
 }
 #menuVerticale ul {
     background-color: rgba(23, 114, 69, 0.6);
@@ -47,3 +47,8 @@ body{
     #menuVerticale ul a:hover {
     background-color:rgba(23, 114, 69, 0.6);
     }
+#email{
+    font-weight: bold;
+    text-align: center;
+    padding-left: 50px;
+}
