@@ -1,0 +1,87 @@
+body{
+    background-image: url(../sfondo_prov_home_1.jpg);
+    background-size: cover;
+    margin:0px;
+    padding:0px;
+}
+#centrato {
+height:auto;
+width:auto;
+margin-left:auto;
+ margin-right:auto;
+}
+#header {
+position:relative;
+background-color:#222222;
+height:auto;
+width:auto;
+}
+#primaColonna {
+float:left;
+height:450px;
+width:20%;
+}
+#alto-sin{
+    text-align: center;
+    padding-top:0%;
+    font-size: 50pt;
+    font-family:serif;
+    color: white;
+}
+#menuVerticale ul {
+border: solid;
+border-color: white;
+margin-top:150px;
+padding:0px;
+list-style-type:none;
+}
+#menuVerticale ul a:link, ul a:visited{
+display:block;
+padding:10px;
+text-decoration:none;
+color:black;
+text-transform:uppercase;
+}
+#menuVerticale ul a:hover {
+background-color:rgba(23, 114, 69, 0.6);
+}
+#sott_men{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+#secondaColonna {    
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align:center;
+color:rgb(49, 51, 53);
+font-size: 450%;
+float:left;
+height:450px;
+width:80%;
+}
+#tab_1{
+    height: 60%;
+    width: 60%;
+    margin:auto;
+    border: solid;
+    border-style: dashed;
+    background-color:rgba(163, 165, 168, 0.7);
+    align-items: center;
+    align-self:center;
+    text-align: center;
+}
+#td_princ{
+    font-family:serif;
+    font-size:25pt;
+}
+#sfondo_prima_pagina{
+    height: 200px;
+}
+#td_sec{
+    font-size:15pt;
+}
+#img_logo{
+    align-items: center;
+    width: auto;
+    height: 125px;
+}

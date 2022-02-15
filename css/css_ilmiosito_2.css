@@ -1,0 +1,79 @@
+body{
+    background-image: url(../sfondo_hobby_scacchi.jpg);
+    background-size: cover;
+}
+#tab_1 td,tr{
+    background-color: white;
+    border: solid;
+    border-style:dashed;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#td_1{
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+    font-size: 100%;
+    font-style: italic;
+}
+#td_2_sin{
+    align-items: center;
+    background-image: url(../imm_moto_hobby.jpg);
+    background-size: cover;
+
+}
+#p_td_sin_3{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+}
+#td_2_dest{
+    text-align: center;
+}
+#p_td_dest_2{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+#p2_td_sin_3{
+    text-align: center;
+}
+#imm_biliardo{
+    height: auto;
+}
+#p_sin_3{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+#p2_sin_3{
+    text-align: center;
+}
+#menuVerticale ul {
+    background-color: rgba(23, 114, 69, 0.6);
+    text-align: center;
+    border: solid;
+    border-color: white;
+    margin-top:150px;
+    padding:0px;
+    list-style-type:none;
+    }
+    #menuVerticale ul a:link, ul a:visited{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    color:black;
+    text-transform:uppercase;
+    }
+    #menuVerticale ul a:hover {
+    background-color:rgba(23, 114, 69, 0.6);
+    }
+#footer{
+    background:rgba(23, 114, 69, 0.6);;
+    bottom:0;
+    height:100px;
+    width:100%;
+    text-align:center;
+}

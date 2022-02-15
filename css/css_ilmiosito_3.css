@@ -1,0 +1,70 @@
+body{
+    background-image: url(../sfondo_scuola.jpg);
+    background-size: cover;
+}
+#h1_titolo{
+    background-color:cadetblue;
+    text-align: center;
+    font-weight: bold;
+}
+#img_colamonico{
+    padding: 30px;
+    padding-left: 150px;
+}
+#tab_1{
+    border: solid;
+    border-style: double;
+    width: 100%;
+    height: 100%;
+}
+#p_descrizione_colamonico{
+    font-size: 40pt;
+    font-style: italic;
+}
+.li_class{
+    font-size: 20pt;
+}
+#tab_2{
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-style: dashed;
+}
+.td_tab_2{
+    width: 25%;
+    height: 25%;
+}
+.titoli_sezioni{
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+}
+.p_sez{
+    font-size: 15pt;
+}
+#menuVerticale ul {
+    background-color: rgba(23, 114, 69, 0.6);
+    text-align: center;
+    border: solid;
+    border-color: white;
+    margin-top:150px;
+    padding:0px;
+    list-style-type:none;
+    }
+    #menuVerticale ul a:link, ul a:visited{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    color:black;
+    text-transform:uppercase;
+    }
+    #menuVerticale ul a:hover {
+    background-color:rgba(23, 114, 69, 0.6);
+    }
+#footer{
+    background:rgba(23, 114, 69, 0.6);;
+    bottom:0;
+    height:100px;
+    width:100%;
+    text-align:center;
+}

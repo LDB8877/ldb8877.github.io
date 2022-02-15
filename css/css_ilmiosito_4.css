@@ -1,0 +1,49 @@
+body{
+    background-image: url(../sfondo_contattami.jpg);
+    background-size: cover;    
+}
+#tab{
+    padding-top: 50%;
+    height:100%;
+    width:100%;
+}
+#td_contattami{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.td_tab_1{
+    font-size: xx-large;
+    font-family: serif;
+    padding-left: 150px;
+}
+.td_text{
+    font-weight: bold;
+    text-align: center;
+    padding-left: 50%;
+}
+#text_insta{
+    padding-left: 40%;
+}
+#td_telefono{
+    padding-left: 50%;
+}
+#menuVerticale ul {
+    background-color: rgba(23, 114, 69, 0.6);
+    text-align: center;
+    border: solid;
+    border-color: white;
+    margin-top:150px;
+    padding:0px;
+    list-style-type:none;
+    }
+    #menuVerticale ul a:link, ul a:visited{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    color:black;
+    text-transform:uppercase;
+    }
+    #menuVerticale ul a:hover {
+    background-color:rgba(23, 114, 69, 0.6);
+    }
