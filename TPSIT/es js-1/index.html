@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Moltiplicazione tra due numeri</title>
+    <link rel="stylesheet" type="text/css" href="css/css-es.js-1.css">
+    <script type="text/javascript">
+        function funzioneProdotto(){
+            var numero1=document.forms["due_numeri"]["n1"].value;
+            var numero2=document.forms["due_numeri"]["n2"].value;
+        
+                risultato=numero1*numero2;
+                window.alert("risultato: " +risultato);
+            }
+        </script>
+</head>
+<body>
+<h1 id="text-h1">Inserire Dati</h1>
+<form name="due_numeri">
+    inserire primo numero <input type="text" name="n1">
+    <br/>
+    <br/>
+    inserire secondo numero <input type="text" name="n2">
+    <br/>
+    <br/>
+    <input type="button" value="Calcola" onclick="funzioneProdotto()">
+</form>
+</body> 
+</html>
