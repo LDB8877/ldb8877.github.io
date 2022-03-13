@@ -1,0 +1,31 @@
+body{
+    background-image: url(img/bg_web.jpg);
+    background-size: cover;
+}
+.h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.p{
+    text-align: center;
+}
+div{
+    border: 1px solid black;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    text-align: justify;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+}
+div a:hover{
+    background-color:burlywood;
+}
+div a:link{
+    text-decoration: none;
+}

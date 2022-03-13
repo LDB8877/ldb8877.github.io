@@ -1,0 +1,26 @@
+body{
+    background-image: url(img/logo_maserati_bg.png);
+    background-size: cover;
+}
+#h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.h1_1{
+    padding-left: 100px;
+    font-style: italic;
+}
+#maps_find{
+    align-items: right;
+    width: 100%;
+}
+#find_us_td_1{
+    font-style: italic;
+    padding-right: 200px;
+    padding-left: 100px;
+}
+#maserati_2{
+    padding-left: 100px;
+    width: 40%;
+}

@@ -1,0 +1,45 @@
+body{
+    background-image: url(img/bg_web.jpg);
+}
+.h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+#img_maps{
+    width: 80%;
+    margin-left: 10%;
+}
+#table_1 {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse; 
+    padding: 10px;
+   }
+#table_1 td {
+    border: 5px solid black;
+}
+.p_tab{
+    text-align: center;
+    font-size: xx-large;
+}
+#home_link{
+    font-weight: bold;
+    font-size: 30pt;
+}
+div{
+    text-align: center;
+}
+div{
+    border: 1px solid black;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    text-align: justify;
+}
+div a:hover{
+    background-color:burlywood;
+}
+div a:link{
+    text-decoration: none;
+}
