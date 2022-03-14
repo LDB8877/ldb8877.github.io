@@ -13,7 +13,7 @@ body{
 }
 #maps_find{
     align-items: right;
-    width: 100%;
+    width: 400%;
 }
 #find_us_td_1{
     font-style: italic;
@@ -23,4 +23,34 @@ body{
 #maserati_2{
     padding-left: 100px;
     width: 40%;
+}
+#a_raggiungerci{
+    font-weight: bold;
+    font-size: 30pt;
+}
+div{
+    text-align: center;
+}
+div{
+    padding: 10px;
+    padding-left: 150px;
+    width: auto;
+    height: auto;
+    text-align: justify;
+}
+div a:link{
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+h4{
+    padding-left: 10%;
+}
+.a_contattaci{
+    padding-left: 10%;
+}
+#h1_2{
+    font-style: italic;
+    padding-left: 10%;
 }
