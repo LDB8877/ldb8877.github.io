@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<title>esercizio js IF</title>
+<script>
+
+function verifica()
+{
+    var number=document.getElementById('number').value;
+    var image=document.getElementById('immagine');
+    if (number > 18) 
+        {
+        image.src = "luna.jpg";
+        }
+    else
+        {
+        image.src = "sole.jpg";
+        }  
+}    
+</script>
+</head>
+<body>
+    <br/>
+    <br/>
+    <h1>Inserisci un numero a scelta</h1>
+    <br/>
+    <br/>
+    <input id="number" name="numero" type="text">
+    <button onclick="verifica()">Verifica numero</button>
+    <div>
+        <img id="immagine">
+    </div>
+</body>
+</html>
