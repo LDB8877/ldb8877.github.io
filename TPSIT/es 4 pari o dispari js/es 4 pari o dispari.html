@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>esercizio pari o dispari</title>
+    <script>
+        
+    function verifica()
+    {
+        var number=document.getElementById('number').value;
+        if(number%2==0)
+        {
+            document.getElementById('risultato').innerHTML="0";
+        }
+        else
+        {
+            document.getElementById('risultato').innerHTML="1";
+        }
+        }    
+        </script>
+        </head>
+        <body>
+            <br/>
+            <br/>
+            <h1>Inserisci un numero a scelta</h1>
+            <br/>
+            <br/>
+            <input id="number" name="numero" type="text">
+            <button onclick="verifica()">Verifica se è pari o dispari</button>
+            <div>
+                <br>
+                <p>valore 0 = numero pari; valore 1 = numero dispari</p>
+                <br>
+                <p id="risultato"></p>
+            </div>
+        </body>
+        </html>
