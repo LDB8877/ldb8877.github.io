@@ -5,3 +5,94 @@ body{
 #h1{
     text-align: center;
 }
+
+#footer{
+    background:rgba(164, 164, 164, 0.7);;
+    bottom:0;
+    height:100px;
+    width:100%;
+    text-align:center;
+}
+
+/* li personalizzazione (simile button personalizzazione)*/
+
+li, #home{
+    display: inline-block;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  li span,#home span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #home span:after,li span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  li:hover span, #home:hover span{
+    padding-right: 25px;
+  }
+  
+  li:hover span:after, #home:hover span:after{
+    opacity: 1;
+    right: 0;
+  }
+  li:hover,#home:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+li {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:coral;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  li:active,#home:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+    ul {
+    border: solid;
+    border-color: transparent;
+    margin-top:150px;
+    padding-left: 25%;
+    list-style-type:none;
+    }
+    ul a:link, ul a:visited{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    color:black;
+    text-transform:uppercase;
+    }
+    li{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
